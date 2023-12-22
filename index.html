@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SREĆNA NOVA GODINA</title>
+    <style>
+        *{
+            background: none;
+            background-image: url(bg1.jpg);
+            background-size:cover;
+            overflow: hidden;
+            text-align: center;
+            width:auto;
+            height: auto;
+        }
+        body {
+            margin: 0;
+            background-color: lightblue;
+            background-size: contain;
+            background-attachment: fixed;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            height:auto;
+            width:auto;
+            background: none;
+        }
+        h2{
+            padding-top: 20px;
+            background: none;
+            margin: 0;
+        }
+        p, div{
+            padding: 0;
+            background: none;
+        }
+
+
+        #questionMark{
+            font-size: 60px;
+            margin-bottom: 15px;
+        }
+
+        #pesmica{
+            text-align: center;
+            width:500px;
+            margin: 0 auto;
+            padding: 0px;
+            border: 3px solid black;
+            border-radius: 20px;
+            display: inline-block;
+        }   
+
+        h2,
+        #intro,
+        #pesmica {
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+
+        
+    </style>
+</head>
+    <body>
+        
+        <div id="intro">
+            <p>Evo ja dok nemam šta da radim odlučio da još nešto dodamo</p>
+            <p>za Novu Godinu kao poklončić ako možemo tako da kažemo.</p>
+            <p>Iako znam da ne voliš poklone koji nisu korisni ili zanimljivi</p>
+            <p>možda ćeš ceniti trud nemam pojma nisam dobar u ovome stvarno</p>
+        </div>
+            <br>
+            <div id="pesmica">
+                <div>
+                    <p>Svake sekunde, sijaš poput dana,</p>
+                    <p>Tamara draga, ti si od svetla satkana</p>
+                    <p>Tvoja mudrost blista kao sunca sjaj,</p>
+                    <p>Hvala ti što si tu, u mom svetu raj</p>
+                </div>
+                    <br>
+                <div>
+                    <p>U radosti i u svakom tragu,</p>
+                    <p>Tvoje reči nose snagu.</p>
+                    <p>Kroz uspone i padove, zajedno idemo,</p>
+                    <p>Na MEF-u ćemo red da zavedemo</p>
+                </div>
+                    <br>
+                <div>
+                    <p>Molim te, nemoj da me izdaš,</p>
+                    <p>ili da budeš fejk,</p>
+                    <p>Ako mi malo pažnje daš,</p>
+                    <p>Kupiću ti čizkejk</p>
+                    <p id="questionMark">?</p>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    
+
+            setTimeout(function () {
+                document.getElementById('intro').style.opacity = '1';
+            }, 1000);
+
+            setTimeout(function () {
+                document.getElementById('intro').style.opacity = '0';
+            }, 9500);
+
+            setTimeout(function () {
+                document.getElementById('pesmica').style.opacity = '1';
+            }, 10000);
+        });
+            </script>
+    </body>
+</html>
