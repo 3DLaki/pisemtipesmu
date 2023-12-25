@@ -85,3 +85,17 @@ function toPesmicaBack(){
         document.getElementById('dugme22').style.zIndex = '1';  
     }, 300);   
 };
+
+
+function akoKlikneNe(){
+    var dugme = document.getElementById("ne");
+
+    var maxX = window.innerWidth - dugme.offsetWidth;
+    var maxY = window.innerHeight - dugme.offsetHeight;
+
+    var randomX = Math.floor(Math.random() * maxX);
+    var randomY = Math.floor(Math.random() * maxY);
+
+    dugme.style.left = randomX + "px";
+    dugme.style.top = randomY + "px";
+}
