@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(68, 68, 68);
+}
+
+#question, #ne, #da{
+    color: white;
+}
+
+#question{
+    font-size: 32px;
+    position: absolute;
+    left: 0%;
+    top: 30%;    
+    text-align: center;
+    border: 3px solid white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 20px;
+}
+
+#ne{
+    font-size: 32px;
+    position: absolute;
+    left: 52%;
+    top: 55%;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+#da:hover{
+    transition: 0.3s ease;
+    background-color: rgb(41, 40, 40);
+}
+
+#da{
+    cursor: pointer;
+    font-size: 32px;
+    position: absolute;
+    left: 42%;
+    top: 55%;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+}
