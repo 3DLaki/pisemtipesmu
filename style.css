@@ -1,0 +1,172 @@
+*{
+    background: none;
+    background-size:cover;
+    overflow: hidden;
+    text-align: center;
+    width:auto;
+    height: auto;
+    background-image: url(bg1.jpg);
+}
+
+body {
+    margin: 0;
+    background-color: lightblue;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height:auto;
+    width:auto;
+    background: none;
+}
+
+p, div{
+    padding: 0;
+    background: none;
+}
+
+#questionMark{
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+}
+
+#pesmica{
+    text-align: center;
+    width:500px;
+    margin: 0 auto;
+    padding: 10px 0 0 0; 
+    border: 3px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 2.5%;
+    left: 37%;
+    background-color: rgb(59, 155, 224);
+}   
+
+#intro{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 540px;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: 45%;
+    left: 34.5%;
+    z-index: 1;
+    background-color: rgb(59, 155, 224);
+}
+
+#intro>p{
+    text-align: justify;
+}
+
+h2,
+#intro,
+#pesmica {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#dugme1{
+    background-image: none;
+    cursor: pointer;
+    background-color: rgb(59, 155, 224);
+    position: absolute;
+    top: 67%;
+    left: 47%;
+    border: 3px solid black;
+    border-radius: 18px;
+    padding: 15px 50px 15px 50px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#dugme1:hover{
+    opacity: 1;
+    background-color: rgb(56, 146, 211);
+}
+
+#dugme21{
+    background-image: none;
+    cursor: pointer;
+    background-color: rgb(59, 155, 224);
+    position: absolute;
+    top: 88%;
+    left: 42%;
+    border: 3px solid black;
+    border-radius: 18px;
+    padding: 15px 53px 15px 53px;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#dugme21:hover{
+    background-color: rgb(56, 146, 211);
+}
+
+#dugme22{
+    background-image: none;
+    cursor: pointer;
+    background-color: rgb(59, 155, 224);
+    position: absolute;
+    top: 88%;
+    left: 51%;
+    border: 3px solid black;
+    border-radius: 18px;
+    padding: 15px 50.5px 15px 50.5px;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#dugme22:hover{
+    background-color: rgb(56, 146, 211);
+}
+
+#porukica{
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    top: 18%;
+    left: 33%;
+    z-index: 0;
+    background-color: rgb(59, 155, 224);
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#porukica>#tekst{
+    text-align: justify; 
+}
+
+#signature{
+    text-align: right;
+}
+
+#dugme3{
+    background-image: none;
+    cursor: pointer;
+    background-color: rgb(59, 155, 224);
+    position: absolute;
+    top: 86%;
+    left: 46.5%;
+    border: 3px solid black;
+    border-radius: 18px;
+    padding: 15px 50.5px 15px 50.5px;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+#dugme3:hover{
+    background-color: rgb(56, 146, 211);
+}
+
+
+/* background-color:rgb(63,169,245); */
